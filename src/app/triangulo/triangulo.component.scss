@@ -1,0 +1,40 @@
+
+#infoLados {
+  height: 50%;
+}
+#imagen {
+  text-align: center;
+  padding: 20px;
+  max-width: 90%;
+  display: block;
+  margin: auto;
+  border: 1px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+
+  h1 {
+    text-align: left;
+  }
+}
+
+#labelContenido {
+  ion-list {
+    ion-item {
+      ion-label,
+      ion-input {
+        align-items: center;
+        width: 100%;
+        height: auto;
+        background: transparent;
+        background-color: #b4b3b3bd;
+        margin-bottom: 0;
+      }
+      ion-input {
+        border-bottom: 2px solid #2e2e2ee5; 
+      }
+    }
+  }
+
+}
+
+

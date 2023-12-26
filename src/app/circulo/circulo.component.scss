@@ -1,0 +1,41 @@
+
+
+#infoCirculo {
+    padding: 15px;
+    height: 50%;
+
+  .container{
+
+    ion-img {
+      width: 100%;
+      max-width: 100%;
+      border: 1px solid black;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      border-radius: 5px;
+
+    }
+
+    ion-list{
+      width: 100%;
+      #labelInput {
+
+        ion-label,
+        ion-input {
+          width: 100%;
+          height: auto;
+          background: transparent;
+          background-color: #8f8f8fbd;
+          margin-bottom: 0;
+        }
+      
+        ion-input {
+          border-bottom: 2px solid #2e2e2ee5; 
+        }
+      
+      }
+      
+    }
+  }
+  
+}
+
